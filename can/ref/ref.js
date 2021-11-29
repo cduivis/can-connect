@@ -117,7 +117,7 @@
  *
  * ```
  * Game.get({id: 5, $populate: "teamRef"}).then(function(game){
- *   game.teamRef.value.name //-> 5
+ *   game.teamRef.value.name //-> Cubs
  * });
  * ```
  *
@@ -130,7 +130,7 @@
  *   team.on("name", function(){})
  * }).then(function(){
  *   Game.get({id: 5}).then(function(game){
- *     game.teamRef.value.name //-> 5
+ *     game.teamRef.value.name //-> Cubs
  *   });
  * })
  * ```
